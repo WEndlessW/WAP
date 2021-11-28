@@ -1,0 +1,145 @@
+@keyframes draha {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes draham {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes drahav {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes drahas {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.zeme-draha {
+    animation: spin 3.5s linear 0s infinite normal;
+    background-color: transparent;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    top: 22%;
+    position: relative;
+    animation-name: draha;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    overflow: hidden;
+}
+
+.zeme {
+    background-color: blue;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.slunce {
+    margin: auto;
+    top: -12%;
+    background-color: goldenrod;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 3px 40px 20px goldenrod;
+}
+
+.mesic {
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 60px;
+}
+
+.merkur-draha {
+    animation: spin 2s linear 0s infinite normal;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    top: -27%;
+    position: relative;
+    animation-name: draham;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    overflow: hidden;
+}
+
+.merkur {
+    background-color: rgba(155, 135, 118, 0.26);
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.venuse-draha {
+    animation: spin 2s linear 0s infinite normal;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    top: -55%;
+    position: relative;
+    animation-name: drahav;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    overflow: hidden;
+}
+
+.venuse {
+    background-color: rgb(146, 88, 49);
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.skvrna-draha {
+    animation: spin 2s linear 0s infinite normal;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    top: -73.3%;
+    position: relative;
+    animation-name: drahas;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    overflow: hidden;
+}
+
+.skvrna {
+    background-color: rgba(255, 166, 0, 0.301);
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+}
