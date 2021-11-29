@@ -1,0 +1,121 @@
+@keyframes neco {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes neco1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes neco2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.slunce {
+    --size: 150px;
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    background-color: goldenrod;
+    border-radius: 50%;
+    box-shadow: 0px 0px 45px 5px goldenrod;
+}
+
+.zeme-draha {
+    animation: spin 3.5s linear 0s infinite normal;
+    --size: 700px;
+    background-color: transparent;
+    animation-name: neco;
+    width: var(--size);
+    height: var(--size);
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    animation-duration: 8s;
+    animation-delay: 0s;
+    position: absolute;
+    overflow: hidden;
+}
+
+.zeme {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.mesic {
+    margin: 55px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.merkur-draha {
+    animation: spin 3.5s linear 0s infinite normal;
+    --size: 230px;
+    background-color: transparent;
+    animation-name: neco1;
+    width: var(--size);
+    height: var(--size);
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    position: absolute;
+    overflow: hidden;
+}
+
+.merkur {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: wheat;
+    border-radius: 50%;
+}
+
+.venuse-draha {
+    animation: spin 3.5s linear 0s infinite normal;
+    --size: 400px;
+    background-color: transparent;
+    animation-name: neco2;
+    width: var(--size);
+    height: var(--size);
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    animation-duration: 5s;
+    animation-delay: 0s;
+    position: absolute;
+    overflow: hidden;
+}
+
+.venuse {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: peru;
+    border-radius: 50%;
+}
