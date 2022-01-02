@@ -1,0 +1,113 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+body {
+    background-color: aqua;
+    position: absolute;
+}
+
+#tlc {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 200px;
+    height: 75px;
+    background-color: gold;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+#nav1 {
+    background-color: brown;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#nav2 {
+    left: 11rem;
+    background-color: greenyellow;
+    position: absolute;
+    height: 13rem;
+    width: 11rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#nav3 {
+    left: 23rem;
+    background-color: goldenrod;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    top: 26rem;
+    background-color: blueviolet;
+    position: absolute;
+    width: 100rem;
+    height: 5rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#img1 {
+    width: 6.5rem;
+    height: 4rem;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: white;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+#tab {
+    top: 35rem;
+    width: 13rem;
+    height: 6.6rem;
+    background-color: burlywood;
+    position: absolute;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#points {
+    position: absolute;
+    background-color: chocolate;
+    width: 19rem;
+    height: 10rem;
+    top: 43.5rem;
+    border-radius: 10px;
+}
