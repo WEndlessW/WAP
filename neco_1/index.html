@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Enter Text</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="java.js"></script>
+    </head>
+    <body>
+        <h1>Seznam slov</h1>
+
+        <form onsubmit="return seznam('list', this.slovo)"> 
+            <input type="text" id="slovo" placeholder="Zadej slovo" onfocus='this.value = "" '/>
+            <input type="submit">
+          
+          </form>
+          
+          <ul id="list">
+          
+          </ul>
+        
+
+    </body>
+</html>
