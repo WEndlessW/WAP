@@ -2,11 +2,11 @@
 
 # Moduly
 
-LIVE server, Prettier, Live Sass Compiler a potom různé moduly které se strají o funkčnost danégo programovacího jazyka.
+ Moduly které já osobně miluji jsou LIVE server, Prettier, Live Sass Compiler a potom různé moduly které se strají o funkčnost daného programovacího jazyka.
 
 # Nastavení
 
-Používám deafulní nastavení u všeho. Zatím jsem necítil potřebu nic měnit.
+Používám deafultní nastavení u všeho. Zatím jsem necítil potřebu nic měnit.
 
 # Zkratky 
 
