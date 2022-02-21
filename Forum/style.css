@@ -1,0 +1,61 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+label {
+  text-align: left;
+}
+
+#image {
+  text-align: center;
+}
+
+img {
+  height: 40%;
+  width: 40%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+#stred {
+  text-align: center;
+}
+
+table {
+  border-style: solid;
+  border-width: 5px;
+}
+
+tr {
+  border-style: solid;
+  border-width: 5px;
+}
+
+td {
+  border-style: solid;
+  border-width: 5px;
+}
+/*# sourceMappingURL=style.css.map */
