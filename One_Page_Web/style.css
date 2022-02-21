@@ -1,0 +1,457 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: mediumslateblue;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+h1 {
+  text-align: center;
+  color: #84016e;
+  font-size: 2.3rem;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-left: 0.5%;
+  font-size: 1.5rem;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: left;
+  padding-left: 0.7%;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 1.5%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightcoral), color-stop(lightcoral), to(#8c7ceb));
+  background-image: linear-gradient(lightcoral, lightcoral, #8c7ceb);
+  font-size: 30px;
+  border-bottom: black;
+  border-bottom-style: outset;
+}
+
+#Sparkle {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Sparkle_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #8c7ceb;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Sparkle_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Fluttershy {
+  text-align: left;
+  margin: 0 auto;
+  height: 6.4rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Fluttershy_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #fef7a5;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Fluttershy_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#selection1 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8c7ceb), color-stop(#8c7ceb), to(#fef7a5));
+  background-image: linear-gradient(#8c7ceb, #8c7ceb, #fef7a5);
+  padding-top: 0.5%;
+}
+
+#selection2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fef7a5), color-stop(#fef7a5), to(#d86e9c));
+  background-image: linear-gradient(#fef7a5, #fef7a5, #d86e9c);
+  height: 100%;
+  width: 100%;
+  padding-top: 0.5%;
+}
+
+#selection3 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d86e9c), color-stop(#d86e9c), to(white));
+  background-image: linear-gradient(#d86e9c, #d86e9c, white);
+  padding-top: 0.5%;
+}
+
+#selection4 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(white), to(#9edbf8));
+  background-image: linear-gradient(white, white, #9edbf8);
+  padding-top: 0.5%;
+}
+
+#selection5 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9edbf8), color-stop(#9edbf8), to(#fec06b));
+  background-image: linear-gradient(#9edbf8, #9edbf8, #fec06b);
+  padding-top: 0.5%;
+}
+
+#selection6 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fec06b), to(#fec06b));
+  background-image: linear-gradient(#fec06b, #fec06b);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+#selection7 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf6fb), color-stop(#fbf6fb), to(#203e87));
+  background-image: linear-gradient(#fbf6fb, #fbf6fb, #203e87);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+#selection8 {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#203d87), to(#203d87));
+  background-image: linear-gradient(#203d87, #203d87);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+#Pinkie_Pie {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Pinkie_photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #d86e9c;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Pinkie_Pie_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Rarity {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Rarity_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: white;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Rarity_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Rainbow_Dash {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Rainbow_Dash_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #9edbf8;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Rainbow_Dash_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Applejack {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Applejack_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #fec06b;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Applejack_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Princezny {
+  padding-top: 0.5%;
+  text-align: center;
+  padding: 0.4%;
+  margin: 0 auto;
+  border-top: 1%;
+  border-bottom: 1%;
+  border-color: black;
+  border-style: groove;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fbf6fb), to(#203e87));
+  background-image: linear-gradient(to right, #fbf6fb, #203e87);
+}
+
+#Celestia {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Celestia_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #fbf6fb;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Celestia_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+#Luna {
+  text-align: left;
+  margin: 0 auto;
+  height: 7.7rem;
+  width: 60rem;
+  border-radius: 10px;
+  margin-bottom: 0.3%;
+}
+
+#Luna_Photo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 60rem;
+  background-color: #203e87;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 2%;
+  border-color: black;
+}
+
+#Luna_Photo_png {
+  margin-top: 0.3%;
+  height: 100%;
+  width: 59.5rem;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 500px) {
+  body {
+    display: inline-block;
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#Fluttershy_Scroll {
+  text-align: left;
+}
+
+#myBtn {
+  left: 2rem;
+  position: absolute;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+  padding: 0.45%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn1:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn2:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn3:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn4:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn5:hover {
+  background-color: rgba(85, 85, 85, 0.205);
+}
+
+#myBtn1 {
+  left: 10rem;
+  position: absolute;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+  padding: 0.45%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn2 {
+  left: 18rem;
+  position: absolute;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+  padding: 0.45%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn3 {
+  left: 24rem;
+  position: absolute;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+  padding: 0.45%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn4 {
+  left: 34.5rem;
+  position: absolute;
+  z-index: 99;
+  background-color: transparent;
+  color: white;
+  padding: 0.45%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn5 {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

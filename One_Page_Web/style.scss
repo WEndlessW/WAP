@@ -1,0 +1,441 @@
+    $desktop:1200px;
+    $laptop:1024px;
+    $tablet:768px;
+    $phone:480px;
+    body {
+        height: 100%;
+        margin: 0;
+        background-color: mediumslateblue;
+        transition: background-color 1s ease;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(132, 1, 110);
+        font-size: 2.3rem;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        margin-left: 0.5%;
+        font-size: 1.5rem;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 0.7%;
+        font-family: Trebuchet MS, sans-serif;
+    }
+    
+    #header {
+        position: sticky;
+        padding: 1.5%;
+        margin: 0 auto;
+        text-align: center;
+        background-image: linear-gradient( lightcoral, lightcoral, rgb(140, 124, 235));
+        font-size: 30px;
+        border-bottom: black;
+        border-bottom-style: outset;
+    }
+    
+    #Sparkle {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Sparkle_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(140, 124, 235);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Sparkle_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Fluttershy {
+        text-align: left;
+        margin: 0 auto;
+        height: 6.4rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Fluttershy_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(254, 247, 165);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Fluttershy_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #selection1 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(140, 124, 235), rgb(140, 124, 235), rgb(254, 247, 165));
+        padding-top: 0.5%;
+    }
+    
+    #selection2 {
+        background-image: linear-gradient(rgb(254, 247, 165), rgb(254, 247, 165), rgb(216, 110, 156));
+        height: 100%;
+        width: 100%;
+        padding-top: 0.5%;
+    }
+    
+    #selection3 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(216, 110, 156), rgb(216, 110, 156), rgb(255, 255, 255));
+        padding-top: 0.5%;
+    }
+    
+    #selection4 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(158, 219, 248));
+        padding-top: 0.5%;
+    }
+    
+    #selection5 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(158, 219, 248), rgb(158, 219, 248), rgb(254, 192, 107));
+        padding-top: 0.5%;
+    }
+    
+    #selection6 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(254, 192, 107), rgb(254, 192, 107));
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    
+    #selection7 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(251, 246, 251), rgb(251, 246, 251), rgb(32, 62, 135));
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    
+    #selection8 {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgb(32, 61, 135), rgb(32, 61, 135));
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    
+    #Pinkie_Pie {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Pinkie_photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(216, 110, 156);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Pinkie_Pie_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Rarity {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Rarity_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Rarity_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Rainbow_Dash {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Rainbow_Dash_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(158, 219, 248);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Rainbow_Dash_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Applejack {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Applejack_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(254, 192, 107);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Applejack_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Princezny {
+        padding-top: 0.5%;
+        text-align: center;
+        padding: 0.4%;
+        margin: 0 auto;
+        border-top: 1%;
+        border-bottom: 1%;
+        border-color: black;
+        border-style: groove;
+        background-image: linear-gradient(to right, rgb(251, 246, 251), rgb(32, 62, 135));
+    }
+    
+    #Celestia {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Celestia_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(251, 246, 251);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Celestia_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    #Luna {
+        text-align: left;
+        margin: 0 auto;
+        height: 7.7rem;
+        width: 60rem;
+        border-radius: 10px;
+        margin-bottom: 0.3%;
+    }
+    
+    #Luna_Photo {
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+        width: 60rem;
+        background-color: rgb(32, 62, 135);
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2%;
+        border-color: black
+    }
+    
+    #Luna_Photo_png {
+        margin-top: 0.3%;
+        height: 100%;
+        width: 59.5rem;
+        border-radius: 10px;
+    }
+    
+    @media all and (max-width: 500px) {
+        body {
+            display: inline-block;
+            flex-direction: inherit;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    #Fluttershy_Scroll {
+        text-align: left;
+    }
+    
+    #myBtn {
+        left: 2rem;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        color: white;
+        padding: 0.45%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    #myBtn:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn1:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn2:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn3:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn4:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn5:hover {
+        background-color: rgba(85, 85, 85, 0.205);
+    }
+    
+    #myBtn1 {
+        left: 10rem;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        color: white;
+        padding: 0.45%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    #myBtn2 {
+        left: 18rem;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        color: white;
+        padding: 0.45%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    #myBtn3 {
+        left: 24rem;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        color: white;
+        padding: 0.45%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    #myBtn4 {
+        left: 34.5rem;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        color: white;
+        padding: 0.45%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    #myBtn5 {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        background-color: transparent;
+        color: black;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
