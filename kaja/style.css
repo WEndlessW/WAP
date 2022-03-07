@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: monospace;
+    background-color: rgb(148, 54, 219);
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgb(134, 255, 123);
+}
+h1 {
+    padding: 0.5em 1em 0 1em;
+    font-size: 2em;
+}
+
+h2{
+    padding: 0.5em 0 0 0;
+    font-size: 1.2em;
+}
+main > div {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border: 2px solid rgb(255, 0, 43);
+    border-collapse: collapse; 
+}
+
+
+
+td  {
+    border: 1px solid rgb(255, 0, 43);
+    width: 2em;
+    height:2em;
+}
