@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: mistyrose;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+tr {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+th {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
